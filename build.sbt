@@ -4,13 +4,14 @@ name := "hello"
 
 version := "1.0"
 
-scalaVersion := "2.10.2"
+scalaVersion := "2.11.2"
 
 libraryDependencies ++= Seq(
-	"org.eclipse.jetty" % "jetty-servlet" % "9.1.0.v20131115",
-    "org.glassfish.grizzly" % "grizzly-http-server" % "2.3.7",
-    "io.undertow" % "undertow-core" % "1.0.0.Beta22",
-    "io.undertow" % "undertow-servlet" % "1.0.0.Beta22"
+	"org.eclipse.jetty" % "jetty-servlet" % "9.2.3.v20140905",
+    "org.glassfish.grizzly" % "grizzly-http-server" % "2.3.17",
+    "io.undertow" % "undertow-core" % "1.2.0.Beta3",
+    "io.undertow" % "undertow-servlet" % "1.2.0.Beta3"
 )
 
-scalariformSettings
+// scalariformSettings
+
